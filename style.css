@@ -1,0 +1,78 @@
+:root{
+    --orange: #fe953d;
+    --pink: #eec1dc;
+    --yellow: #fec001;
+}
+
+.orange {
+    background-color: var(--orange);
+}
+.pink {
+    background-color: var(--pink);
+}
+.yellow {
+    background-color: var(--yellow)
+}
+label, input, button, textarea {
+    display: block;
+}
+body input, body textarea {
+    width: 100%;
+    border-radius: 1rem;
+    line-height: 2;
+}
+.contact label {
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+footer nav a { 
+    display: block;
+}
+
+body * {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+
+}
+h1 {
+    font-family: 'Titan One', sans-serif;
+    font-size: 78px; 
+}
+body h4 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+p, a {
+    letter-spacing: 0.2rem;
+    line-height: 1.5;
+}
+
+body h2 {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0.28rem;
+    text-transform: uppercase;
+}
+ header a { 
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+ }
+ footer a {
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    margin-right:0.4rem;
+ }
+ .button {
+    border-radius: 10rem ;
+    text-transform: uppercase;
+    padding: 0.5rem 1.8rem;
+    display: inline-block;
+    font-weight: 500;
+    min-width:12rem;
+    text-align: center;
+ }
+ .pb-50p {
+    padding-bottom: 50%;
+}
