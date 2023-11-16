@@ -39,6 +39,12 @@ h1 {
     font-family: 'Titan One', sans-serif;
     font-size: 78px; 
 }
+body h2 {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0.28rem;
+    text-transform: uppercase;
+}
 body h4 {
     font-weight: 600;
     margin-bottom: 1rem;
@@ -49,12 +55,7 @@ p, a {
     line-height: 1.5;
 }
 
-body h2 {
-    font-size: 32px;
-    font-weight: 600;
-    letter-spacing: 0.28rem;
-    text-transform: uppercase;
-}
+
  header a { 
     padding: 0.5rem 1rem;
     text-transform: uppercase;
@@ -75,4 +76,19 @@ body h2 {
  }
  .pb-50p {
     padding-bottom: 50%;
+}
+
+/* - Styles added here will apply at devices smaller than 768px, or zoomed in equivalent */ 
+@media(max-width: 48em) {
+    body h2 {
+        font-size: 24px;
+        letter-spacing: 0.28rem;
+    }
+}
+/* Max 576px	_xs--------------------------------------------------------------*/
+@media (max-width: 36em){  
+    body h2 {
+        font-size: 20px;
+        letter-spacing: 0.28rem;
+    }
 }

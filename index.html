@@ -6,6 +6,8 @@
 
     <!-- SEO Meta Data -->
     <title>Bright Colors</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +20,10 @@
 <!-- header -->
     <header class="orange text-white bg-center bg-cover min-h-screen flex flex-col" style="background-image: url(images/banner-orange-new.jpg); ">
         <div class="flex justify-between p-4">
-            <nav class="flex gap-4 ">
+            <div class="pl-[1rem] sm:hidden">
+                <i class="fa fa-bars text-2xl leading-[2.5rem]"></i>
+            </div>
+            <nav class="hidden sm:flex gap-4 ">
                 <a href="">Logo</a>
                 <a href="">Nav 1</a>
                 <a href="">Nav 2</a>
@@ -29,7 +34,7 @@
         <div class="flex items-center justify-center grow">
             <div class="text-center  ">
                 <h1 class="text-[15vw] leading-[15vw] font-black tracking-tight">This is a heading</h1>
-                <h2 class="text-4xl text-black p-4">subheading</h2>
+                <h2 class=" text-black p-4">subheading</h2>
                 <a href="" class="bg-black text-white button uppercase">Book now</a>
             </div>            
         </div>
@@ -60,12 +65,12 @@
     </section>
 
 <!-- rainbow -->
-    <section class="pink grid sm:grid-cols-3 pb-20 relative">
-        <div class="hidden sm:grid col-span-2">
+    <section class="pink grid sm:grid-cols-3 relative">
+        <div class="hidden sm:grid col-span-2 pb-20">
             <img src="images/bold-5.jpg" alt="" class="rounded-r-full">
         </div>
         <div class="grid sm:grid-cols-2 sm:absolute self-center">            
-            <div class="col-start-2 pl-10 sm:pl-0 pr-10">
+            <div class="col-start-2 pb-10 sm:pb-0 pl-10 sm:pl-0 pr-10">
                 <h2>Duis aute irure</h2>
                 <p class="pt-8 pb-8 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab, hic quo, pariatur quisquam voluptatibus eaque consequatur labore ut blanditiis vitae rerum quae unde dolorem magni quis, quaerat excepturi illum?</p>
                 <a href="" class="button bg-[var(--orange)]">sign up</a>
@@ -80,7 +85,7 @@
             <img src="images/bold-6.jpg" alt="" class="rounded-t-full">
         </div>
         <div class="orange border-l border-[var(--pink)] flex">
-            <div class="p-10 self-end mb-10">
+            <div class="p-10 self-end lg:mb-10 ">
                 <h2 class="text-white">Duis aute irure</h2>
                 <p class="pt-8 pb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab, hic quo, pariatur quisquam voluptatibus eaque consequatur labore ut blanditiis vitae rerum quae unde dolorem magni quis, quaerat excepturi illum?</p>
                 <a href="" class="button bg-[var(--pink)]">buy now</a>                
