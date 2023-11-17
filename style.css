@@ -78,6 +78,10 @@ p, a {
     padding-bottom: 50%;
 }
 
+body section, body header, body footer {
+    position: relative;
+    top:0;
+}
 /* - Styles added here will apply at devices smaller than 768px, or zoomed in equivalent */ 
 @media(max-width: 48em) {
     body h2 {
