@@ -95,3 +95,4 @@ slideIn.forEach(object => {
     })
 })
 
+//js off on mobile?
