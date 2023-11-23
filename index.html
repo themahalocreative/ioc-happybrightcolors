@@ -68,7 +68,7 @@
     </section>-->
 <!-- image gallery -->
 <section class=" text-center overflow-x-hidden">
-    <svg class="rotate-180 w-full relative -bottom-1" viewBox="0 0 2192 111" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg class="rotate-180 w-full relative -bottom-1 wave-svg" viewBox="0 0 2192 111" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M2192 31.6148C2100.67 31.6148 2100.67 111 2009.31 111C1917.96 111 1917.98 31.6148 1826.63 31.6148C1735.27 31.6148 1735.29 111 1643.96 111C1552.63 111 1552.63 31.6148 1461.29 31.6148C1369.96 31.6148 1369.96 111 1278.63 111C1187.29 111 1187.29 31.6148 1095.96 31.6148C1004.63 31.6148 1004.63 111 913.293 111C821.959 111 821.959 31.6148 730.626 31.6148C639.293 31.6148 639.293 111 547.959 111C456.626 111 456.626 31.6148 365.293 31.6148C273.959 31.6148 273.959 111 182.646 111C91.3333 111 91.3333 31.6148 0 31.6148V0H1096H2192V31.6148Z" fill="var(--pink)"/>
     </svg> 
     <div class="pink">
@@ -99,7 +99,7 @@
     <section class="pink grid sm:grid-cols-3 relative">
         
         <div class="hidden sm:grid col-span-2 pb-20">
-            <img src="images/bold-5.jpg" alt="" class="rounded-r-full">
+            <img src="images/bold-5.jpg" alt="" class="rounded-r-full slidein relative">
         </div>
         <div class="grid sm:grid-cols-2 sm:absolute self-center p-10">     
             <div class="col-start-2 pb-10 pl-10 sm:pl-0 pr-10">
@@ -131,7 +131,8 @@
         <div class="col-span-2 relative pb-50p">
             <img src="images/bold-7.jpg" alt="" class="rounded-r-full object-cover absolute h-full w-full">
         </div>
-        <div class="relative pb-50p">
+        <div class="relative pb-50p spinningboy">
+            <!-- rotation inherited div or img MAKE SURE HAS RELATIVE -->
             <img src="images/bold-8.jpg" alt="" class="rounded-full object-cover absolute h-full w-full">
         </div>
         <div class="relative pb-50p">
@@ -141,7 +142,7 @@
 
 <!-- contact -->
     <section class="orange">
-        <svg class=" w-full relative -top-1" viewBox="0 0 2192 111" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg class=" w-full relative -top-1 wave-svg" viewBox="0 0 2192 111" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M2192 31.6148C2100.67 31.6148 2100.67 111 2009.31 111C1917.96 111 1917.98 31.6148 1826.63 31.6148C1735.27 31.6148 1735.29 111 1643.96 111C1552.63 111 1552.63 31.6148 1461.29 31.6148C1369.96 31.6148 1369.96 111 1278.63 111C1187.29 111 1187.29 31.6148 1095.96 31.6148C1004.63 31.6148 1004.63 111 913.293 111C821.959 111 821.959 31.6148 730.626 31.6148C639.293 31.6148 639.293 111 547.959 111C456.626 111 456.626 31.6148 365.293 31.6148C273.959 31.6148 273.959 111 182.646 111C91.3333 111 91.3333 31.6148 0 31.6148V0H1096H2192V31.6148Z" fill="var(--pink)"/>
         </svg>
         <div class="grid sm:grid-cols-2 ax-w-screen-xl p-10 sm:p-20">
@@ -164,7 +165,7 @@
                 </form>
             </div>
         </div>
-        <svg class="rotate-180 w-full relative -bottom-1" viewBox="0 0 2192 111" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg class="rotate-180 w-full relative -bottom-1 wave-svg" viewBox="0 0 2192 111" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M2192 31.6148C2100.67 31.6148 2100.67 111 2009.31 111C1917.96 111 1917.98 31.6148 1826.63 31.6148C1735.27 31.6148 1735.29 111 1643.96 111C1552.63 111 1552.63 31.6148 1461.29 31.6148C1369.96 31.6148 1369.96 111 1278.63 111C1187.29 111 1187.29 31.6148 1095.96 31.6148C1004.63 31.6148 1004.63 111 913.293 111C821.959 111 821.959 31.6148 730.626 31.6148C639.293 31.6148 639.293 111 547.959 111C456.626 111 456.626 31.6148 365.293 31.6148C273.959 31.6148 273.959 111 182.646 111C91.3333 111 91.3333 31.6148 0 31.6148V0H1096H2192V31.6148Z" fill="var(--pink)"/>
         </svg>
     </section>
@@ -215,6 +216,10 @@
         </div>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js"></script>
+
+    <script src="/main.js"></script>
 
 </body>
 </html>
